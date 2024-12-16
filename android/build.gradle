@@ -26,7 +26,8 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdk 31
-
+    namespace "com.testjhoann.paymentApp"
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
